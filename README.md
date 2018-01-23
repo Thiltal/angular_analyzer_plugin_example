@@ -1,0 +1,3 @@
+# Angular analyzer plugin example
+
+
