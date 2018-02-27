@@ -1,7 +1,7 @@
 analyzer:
   plugins:
-      angular:
-        enabled: true
+    angular:
+      enabled: true
 #   exclude:
 #     - path/to/excluded/files/**
 
