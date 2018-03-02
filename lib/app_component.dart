@@ -4,8 +4,7 @@ import 'package:angular/angular.dart';
   selector: 'my-app',
   templateUrl: 'app_component.html',
   directives: const [
-    COMMON_DIRECTIVES,
-    CORE_DIRECTIVES
+    coreDirectives
   ]
 )
 class AppComponent {

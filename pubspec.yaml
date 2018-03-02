@@ -1,13 +1,13 @@
 name: angular_analyzer_plugin_example
 description: Example app with not working analyzer plugin
-version: 0.0.1
+version: 0.0.2
 author: zmlcoch <mlcoch.zdenek@gmail.com>
 
 environment:
-  sdk: '>=1.24.0 <2.0.0'
+  sdk: '2.0.0-dev.31.0'
 
 dependencies:
-  angular: ^4.0.0
+  angular: 5.0.0-alpha+6
 
 dev_dependencies:
   browser: ^0.10.0
@@ -18,9 +18,3 @@ transformers:
     entry_points:
       - web/main.dart
 - dart_to_js_script_rewriter
-
-# Uncomment the following in sdk 1.24+ to make pub serve
-# use dartdevc (webdev.dartlang.org/tools/dartdevc).
-#web:
-#  compiler:
-#    debug: dartdevc
