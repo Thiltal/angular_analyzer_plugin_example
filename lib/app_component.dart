@@ -9,4 +9,5 @@ import 'package:angular/angular.dart';
 )
 class AppComponent {
   String color = "red";
+  String bla = 'bla';
 }
